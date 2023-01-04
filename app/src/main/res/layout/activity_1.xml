@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".Activity1">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/m"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-6dp" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView10"
+        android:layout_marginTop="-91dp"
+        app:srcCompat="@drawable/activity1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="174dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/imageView13"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/climp" />
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="172dp"
+        android:layout_height="107dp"
+        android:layout_below="@id/imageView14"
+        android:layout_marginTop="-2dp"
+        app:srcCompat="@drawable/jump" />
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imageView15"
+        android:layout_marginTop="4dp"
+        app:srcCompat="@drawable/softy" />
+    <TextView
+        android:id="@+id/tte5"
+        android:layout_width="229dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/imageView13"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView14"
+        android:text="Reach new heights on the 8-meter climbing elements at Clip ‘n Climb! "
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tte6"
+        android:layout_width="231dp"
+        android:layout_height="103dp"
+        android:layout_below="@id/tte5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView15"
+        android:text="Trapeze: Embrace your inner acrobat with our trapeze only at Trampo Extreme."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tte7"
+        android:layout_width="228dp"
+        android:layout_height="115dp"
+        android:layout_below="@id/tte6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView16"
+        android:text="Trampo Junior from Play Kuwait is a safe and fun play area for our little ones to enjoy!"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

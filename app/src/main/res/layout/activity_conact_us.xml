@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConactUs">
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="409dp"
+        android:layout_height="124dp"
+        app:srcCompat="@drawable/contactus"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="3dp" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="411dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/contactus2"
+        android:layout_below="@id/imageView6"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="99dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/imageView7"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="277dp" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="97dp"
+        android:layout_height="77dp"
+        android:layout_below="@id/imageView7"
+        android:layout_marginLeft="-98dp"
+        android:layout_marginTop="119dp"
+        android:layout_toRightOf="@id/imageView8"
+        app:srcCompat="@drawable/contactemail"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="277dp" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/imageView8"
+        android:layout_marginTop="76dp"
+        app:srcCompat="@drawable/phonee"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView7"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@id/imageView8"
+        android:text="GHALA HEIGHTS, 133 MUSCAT, OMAN"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/te4"
+        android:layout_width="288dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@id/imageView9"
+        android:text="TrampoOman@gmail.com"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/te5"
+        android:layout_width="288dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/te4"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@id/imageView11"
+        android:text="+968 7999 8470"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

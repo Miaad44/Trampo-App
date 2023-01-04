@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/Home_item"
+            android:title="Home" />
+        <item android:id="@+id/AboutUs_item"
+            android:title="About Us" />
+        <item android:id="@+id/Activity_item"
+            android:title="Activity" />
+        <item android:id="@+id/BookActivity_item"
+            android:title="Book Activity" />
+        <item android:id="@+id/CancelBookActivity_item"
+            android:title="Cancel Book Activity" />
+        <item android:id="@+id/Pricing_item"
+            android:title="Pricing" />
+        <item android:id="@+id/ContactUs_item"
+            android:title="Contact Us" />
+        <item android:id="@+id/Close"
+            android:title="Close App" />
+</menu>
